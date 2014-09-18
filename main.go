@@ -1,3 +1,6 @@
+// This source is taken from a tutorial 
+// Hope its help for some one
+
 package main
 
 import(
