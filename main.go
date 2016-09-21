@@ -35,7 +35,7 @@ func serveRest (w http.ResponseWriter, r *http.Request) {
 
 func main(){
 	http.HandleFunc("/", serveRest)
-	http.ListenAndServe("localhost:9090", nil)
+	http.ListenAndServe("0.0.0.0:9090", nil)
 }
 
 func getJsonResponse()([]byte, error){
